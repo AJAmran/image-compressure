@@ -1,17 +1,22 @@
-// eslint-disable-next-line react/prop-types
+import { motion } from "framer-motion";
 const ImageUpload = ({ onChange }) => (
-  <div className="mb-6">
-    <label className="block text-sm font-medium text-gray-700">
-      Upload your images
+  <motion.div
+    className="mb-6 flex justify-center md:justify-start"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 0.8 }}
+  >
+    <label className="block text-base md:text-lg font-medium text-gray-100 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 p-3 md:p-2 lg:p-3 rounded-lg shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300">
+      Upload Your Images
+      <input
+        type="file"
+        accept="image/*"
+        multiple
+        onChange={onChange}
+        className="hidden"
+      />
     </label>
-    <input
-      type="file"
-      accept="image/*"
-      multiple
-      onChange={onChange}
-      className="block w-full text-sm text-gray-500 mt-2 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:bg-indigo-100 file:text-indigo-700 hover:file:bg-indigo-200"
-    />
-  </div>
+  </motion.div>
 );
 
 export default ImageUpload;
