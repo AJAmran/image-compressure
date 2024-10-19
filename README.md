@@ -4,6 +4,8 @@
 
 Image Compressor is a powerful web application that allows users to effortlessly compress multiple images while maintaining quality. The application provides a simple and intuitive interface, enabling users to upload, preview, and download their images in a web-friendly format. This tool is designed for photographers, designers, and anyone who needs to optimize images for web use.
 
+![Demo Image](./src/assets/imagecompresser.png) <!-- Update the image path as needed -->
+
 ## Features
 
 - **Multiple Image Upload**: Users can upload multiple images at once for compression.
