@@ -29,7 +29,7 @@ Image Compressor is a powerful web application that allows users to effortlessly
   - Browser Image Compression: A library for client-side image compression.
 
 - **Deployment**:
-  - Deployed using Vercel or Netlify for easy hosting and continuous deployment.
+  - Deployed using Vercel
 
 ## Installation
 
@@ -59,7 +59,7 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:3000`.
+5. Open your browser and visit `[http://localhost:3000](https://image-compressure.vercel.app/)`.
 
 ## Usage
 
