@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const ImageUpload = ({ onChange }) => (
   <motion.div
-    className="mb-6 flex justify-center md:justify-start"
+    className="mb-6 flex justify-center md:justify-center"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.8 }}

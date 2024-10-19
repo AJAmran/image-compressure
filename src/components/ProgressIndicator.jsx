@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const ProgressIndicator = () => (
     <div className="flex justify-center">
       <motion.svg
-        className="animate-spin h-8 w-8 text-indigo-600"
+        className="animate-spin h-8 w-8 text-indigo-200"
         viewBox="0 0 24 24"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

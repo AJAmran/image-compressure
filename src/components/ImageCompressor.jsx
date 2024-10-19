@@ -64,7 +64,7 @@ const ImageCompressor = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 md:p-6 lg:p-8 bg-gradient-to-b from-purple-600 via-indigo-600 to-blue-600 shadow-xl rounded-lg mt-10">
+    <div className="max-w-4xl mx-auto p-4 md:p-6 lg:p-8 bg-gradient-to-b from-purple-600 via-indigo-600 to-blue-600 shadow-xl rounded-lg my-10">
       <motion.h2
         className="text-3xl md:text-4xl font-bold text-gray-100 mb-2 text-center"
         initial={{ opacity: 0 }}
